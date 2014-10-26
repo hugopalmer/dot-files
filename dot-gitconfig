@@ -1,0 +1,23 @@
+[user]
+	name = Remi Paulmier
+	email = remi.paulmier@gmail.com
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	fp = format-patch
+	lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative
+
+	oops = commit --amend -a -C HEAD
+
+[core]
+    pager = less
+	excludesfile = ~/.gitignore
+    editor = vim
+

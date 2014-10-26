@@ -1,0 +1,11 @@
+*.swp
+*.DS_Store
+.DS_Store
+tags
+tags.vendors
+*~
+.classpath
+.project
+.settings
+.bash_secret
+.bundle
