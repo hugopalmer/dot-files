@@ -14,8 +14,8 @@ for dotfile in $(find dot-* -type f); do
     ndotdir="."${dotdir##dot-}/
     dotdir=${dotdir}/
     ndotfile=${dotfile}
-    echo mkdir -p $HOME/${ndotdir}
+    mkdir -vp $HOME/${ndotdir}
   fi
-  echo ln -nsf ${dotfiles}/${dotdir}${dotfile} $HOME/${ndotdir}${ndotfile}
+  ln -vnsf ${dotfiles}/${dotdir}${dotfile} $HOME/${ndotdir}${ndotfile}
 done
 
