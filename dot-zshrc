@@ -31,7 +31,7 @@ export KNIFE_CONF_PATH=${HOME}/.chef/knife.rb
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git debian perl ruby chef symfony2 knife shelldap vagrant kitchen)
+plugins=(git debian perl ruby chef symfony2 knife shelldap vagrant kitchen docker)
 
 source $ZSH/oh-my-zsh.sh
 
