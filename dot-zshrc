@@ -45,7 +45,9 @@ export DEBFULLNAME="Remi Paulmier"
 alias e=emacs
 
 # Amazon
-source $HOME/.local/bin/aws_zsh_completer.sh
+if test -f $HOME/.local/bin/aws_zsh_completer.sh; then
+  source $HOME/.local/bin/aws_zsh_completer.sh
+fi
 export PATH=$PATH:$HOME/.local/bin
 export AWS_CONFIG_FILE=$HOME/.aws/config
 
