@@ -10,6 +10,9 @@ ZSH_THEME="shtouff"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias lxca='lxc-attach -e -n'
+alias s='ssh'
+alias e='emacs'
 
 # Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
@@ -41,8 +44,6 @@ export PATH=$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
 export EDITOR=vi
 export DEBEMAIL=remi.paulmier@gmail.com
 export DEBFULLNAME="Remi Paulmier"
-
-alias e=emacs
 
 # Amazon
 if test -f $HOME/.local/bin/aws_zsh_completer.sh; then
