@@ -41,7 +41,7 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/bin
 
-export EDITOR=vi
+export EDITOR=vim
 export DEBEMAIL=remi.paulmier@gmail.com
 export DEBFULLNAME="Remi Paulmier"
 
