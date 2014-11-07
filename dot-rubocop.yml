@@ -7,7 +7,3 @@ LineLength:
 SingleSpaceBeforeFirstArg:
     Enabled: false
 
-# Avoid warning for digit (should be 12_345 but we don't care !)
-NumericLiterals:
-    Enabled: false
-
