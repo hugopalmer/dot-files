@@ -1,7 +1,7 @@
 # This is the configuration used to check the rubocop source code.
 # base taken from odolbeau
 LineLength:
-    Max: 119
+    Max: 1024
 
 # Just to avoid warning in metadata files.
 SingleSpaceBeforeFirstArg:
