@@ -12,6 +12,7 @@ ZSH_THEME="shtouff"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias lxca='lxc-attach -e -n'
 alias s='ssh'
+alias sr='ssh -l root'
 alias e='emacs'
 
 # Set to this to use case-sensitive completion
