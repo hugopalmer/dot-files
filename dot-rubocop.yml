@@ -7,3 +7,8 @@ LineLength:
 SingleSpaceBeforeFirstArg:
     Enabled: false
 
+# avoid parsing .kitchen dirs
+AllCops:
+     Exclude:
+        - '.kitchen/**/*'
+
