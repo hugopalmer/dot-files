@@ -9,3 +9,17 @@ try
 source ~/.vim_runtime/my_configs.vim
 catch
 endtry
+
+" shtouff settings
+" make statusbar take only 1 line instead of 2
+set cmdheight=1
+
+" stenth of seconds showing bracket match
+set mat=1
+
+" not extra left margin
+set foldcolumn=0
+
+" tab => 2 spaces
+set shiftwidth=2
+set tabstop=2
