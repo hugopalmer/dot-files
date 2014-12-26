@@ -26,3 +26,7 @@ set tabstop=4
 
 " mouse
 set mouse=
+
+" NERDTree
+let g:NERDTreeWinPos = "right"
+nnoremap <leader>o :NERDTreeFind<CR>
