@@ -14,6 +14,9 @@ endtry
 " make statusbar take only 1 line instead of 2
 set cmdheight=1
 
+" colorscheme
+colorscheme peaksea
+
 " stenth of seconds showing bracket match
 set mat=1
 
