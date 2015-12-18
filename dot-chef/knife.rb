@@ -15,4 +15,6 @@ cookbook_license     "apachev2"
 chef_server_url      "https://chef.prive.comuto.com"
 validation_key       "/Users/remi/.chef/validation.pem"
 
+ssl_verify_mode      :verify_peer
+
 knife[:ssh_user] = "root"
