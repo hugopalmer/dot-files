@@ -12,7 +12,7 @@ cookbook_copyright   "BlaBlaCar"
 cookbook_email       "remi.paulmier@blablacar.com"
 cookbook_license     "apachev2"
 
-chef_server_url      "https://chef.prive.comuto.com"
+chef_server_url    "https://chef.priv.blablacar.net"
 validation_key       "/Users/remi/.chef/validation.pem"
 
 ssl_verify_mode      :verify_peer
