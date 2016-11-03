@@ -34,3 +34,6 @@ set mouse=
 let g:NERDTreeWinPos = "right"
 let g:NERDTreeQuitOnOpen=1
 nnoremap <leader>o :NERDTreeFind<CR>
+
+" allow copy-paste from/to vim to OS
+set clipboard=unnamed
